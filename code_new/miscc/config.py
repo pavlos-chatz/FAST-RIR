@@ -25,7 +25,7 @@ __C.EVAL_DIR = ''
 __C.VIS_COUNT = 64
 
 __C.Z_DIM = 100
-__C.RIRSIZE = 4096
+__C.RIRSIZE = 16000
 __C.STAGE = 1
 
 
