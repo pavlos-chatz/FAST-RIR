@@ -46,13 +46,13 @@ __C.TRAIN.COEFF.KL = 2.0
 
 # Modal options
 __C.GAN = edict()
-__C.GAN.CONDITION_DIM = 128
-__C.GAN.DF_DIM = 64
-__C.GAN.GF_DIM = 128
+__C.GAN.CONDITION_DIM = 10
+__C.GAN.DF_DIM = 96
+__C.GAN.GF_DIM = 256
 __C.GAN.R_NUM = 4
 
 __C.TEXT = edict()
-__C.TEXT.DIMENSION = 1024
+__C.TEXT.DIMENSION = 10
 
 
 def _merge_a_into_b(a, b):
